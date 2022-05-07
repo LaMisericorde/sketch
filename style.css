@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+.container {
+    --size: 16;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 30px);
+}
+
+.cell {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.cell:hover {
+    background-color: red;
+}
